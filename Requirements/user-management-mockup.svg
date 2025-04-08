@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f3f4f6"/>
+  
+  <!-- Sidebar Background -->
+  <rect x="0" y="0" width="240" height="800" fill="#1e293b"/>
+  
+  <!-- Header Bar -->
+  <rect x="240" y="0" width="960" height="64" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Company name area -->
+  <rect x="256" y="16" width="300" height="32" rx="4" fill="#ffffff"/>
+  <text x="260" y="37" font-family="Arial" font-size="16" font-weight="bold" fill="#111827">Acme Corporation</text>
+  
+  <!-- User menu area -->
+  <circle cx="1130" cy="32" r="20" fill="#3b82f6"/>
+  <text x="1130" y="37" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">AC</text>
+  
+  <!-- Dark/Light toggle -->
+  <circle cx="1070" cy="32" r="16" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+  <path d="M1070 24 L1070 40 M1062 32 L1078 32" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Sidebar Logo -->
+  <rect x="32" y="24" width="176" height="32" rx="4" fill="#1e293b"/>
+  <text x="32" y="46" font-family="Arial" font-size="20" font-weight="bold" fill="#ffffff">Airiam RAG</text>
+  
+  <!-- Sidebar Navigation -->
+  <rect x="16" y="100" width="208" height="40" rx="4" fill="#1e293b"/>
+  <text x="56" y="125" font-family="Arial" font-size="14" fill="#94a3b8">Dashboard</text>
+  <rect x="24" y="110" width="20" height="20" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  
+  <rect x="16" y="150" width="208" height="40" rx="4" fill="#1e293b"/>
+  <text x="56" y="175" font-family="Arial" font-size="14" fill="#94a3b8">Chat</text>
+  <rect x="24" y="160" width="20" height="20" rx="10" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  
+  <rect x="16" y="200" width="208" height="40" rx="4" fill="#1e293b"/>
+  <text x="56" y="225" font-family="Arial" font-size="14" fill="#94a3b8">File Analysis</text>
+  <rect x="24" y="210" width="20" height="20" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  
+  <rect x="16" y="250" width="208" height="40" rx="4" fill="#1e293b"/>
+  <text x="56" y="275" font-family="Arial" font-size="14" fill="#94a3b8">Analytics</text>
+  <path d="M24 220 L44 230 L34 250" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- Divider for Admin -->
+  <line x1="32" y1="310" x2="208" y2="310" stroke="#475569" stroke-width="1"/>
+  
+  <rect x="16" y="330" width="208" height="40" rx="4" fill="#1e293b"/>
+  <text x="56" y="355" font-family="Arial" font-size="14" fill="#94a3b8">Admin Dashboard</text>
+  <rect x="24" y="340" width="20" height="20" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  
+  <rect x="16" y="380" width="208" height="40" rx="4" fill="#2563eb"/>
+  <text x="56" y="405" font-family="Arial" font-size="14" fill="#ffffff">User Management</text>
+  <rect x="24" y="390" width="20" height="20" fill="none" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Footer profile in Sidebar -->
+  <rect x="16" y="720" width="208" height="64" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+  <circle cx="40" cy="752" r="20" fill="#3b82f6"/>
+  <text x="40" y="757" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">AC</text>
+  <text x="70" y="747" font-family="Arial" font-size="14" fill="#ffffff">Admin User</text>
+  <text x="70" y="767" font-family="Arial" font-size="12" fill="#94a3b8">View profile</text>
+  
+  <!-- Main Content Area - User Management -->
+  <rect x="256" y="80" width="928" height="704" rx="0" fill="#f3f4f6"/>
+  
+  <!-- Page Header -->
+  <text x="272" y="120" font-family="Arial" font-size="24" font-weight="bold" fill="#111827">User Management</text>
+  <text x="272" y="150" font-family="Arial" font-size="14" fill="#6b7280">Manage users, roles, and permissions</text>
+  
+  <!-- Tenant Selector -->
+  <text x="272" y="180" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Tenant:</text>
+  <rect x="340" y="165" width="240" height="40" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="360" y="190" font-family="Arial" font-size="14" fill="#111827">Acme Corporation</text>
+  <path d="M555 185 L565 190 L555 195" fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Action Buttons -->
+  <rect x="900" y="165" width="140" height="40" rx="6" fill="#2563eb"/>
+  <text x="970" y="190" font-family="Arial" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Add User</text>
+  <text x="930" y="190" font-family="Arial" font-size="14" fill="#ffffff" font-weight="bold">+</text>
+  
+  <rect x="1050" y="165" width="120" height="40" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="1110" y="190" font-family="Arial" font-size="14" fill="#374151" font-weight="bold" text-anchor="middle">Refresh</text>
+  
+  <!-- User Table Card -->
+  <rect x="272" y="230" width="928" height="450" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Filter & Search -->
+  <text x="292" y="265" font-family="Arial" font-size="16" font-weight="bold" fill="#111827">Users</text>
+  
+  <rect x="600" y="250" width="240" height="36" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="624" y="273" font-family="Arial" font-size="14" fill="#9ca3af">Search users...</text>
+  
+  <rect x="850" y="250" width="130" height="36" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="870" y="273" font-family="Arial" font-size="14" fill="#111827">Filter by Role</text>
+  <path d="M955 273 L965 278 L955 283" fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <rect x="990" y="250" width="100" height="36" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="1010" y="273" font-family="Arial" font-size="14" fill="#111827">Status</text>
+  <path d="M1065 273 L1075 278 L1065 283" fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- User Table Header -->
+  <rect x="292" y="300" width="888" height="40" fill="#f9fafb"/>
+  <rect x="292" y="300" width="30" height="40" fill="#f9fafb"/>
+  <rect x="302" y="310" width="20" height="20" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="322" y1="300" x2="322" y2="340" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="342" y="325" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Name</text>
+  <line x1="480" y1="300" x2="480" y2="340" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="500" y="325" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Email</text>
+  <line x1="700" y1="300" x2="700" y2="340" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="720" y="325" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Role</text>
+  <line x1="800" y1="300" x2="800" y2="340" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="820" y="325" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Last Login</text>
+  <line x1="920" y1="300" x2="920" y2="340" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="940" y="325" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Status</text>
+  <line x1="1020" y1="300" x2="1020" y2="340" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="1060" y="325" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Actions</text>
+  
+  <!-- User Table Rows -->
+  <rect x="292" y="340" width="888" height="60" fill="#ffffff"/>
+  <rect x="292" y="340" width="30" height="60" fill="#ffffff"/>
+  <rect x="302" y="360" width="20" height="20" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="322" y1="340" x2="322" y2="400" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="342" cy="370" r="20" fill="#bfdbfe"/>
+  <text x="342" y="375" font-family="Arial" font-size="12" font-weight="bold" fill="#1e40af" text-anchor="middle">JS</text>
+  <text x="372" y="370" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">John Smith</text>
+  <line x1="480" y1="340" x2="480" y2="400" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="500" y="370" font-family="Arial" font-size="14" fill="#111827">john.smith@acme.com</text>
+  <line x1="700" y1="340" x2="700" y2="400" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="720" y="360" width="65" height="24" rx="12" fill="#e0e7ff"/>
+  <text x="752" y="377" font-family="Arial" font-size="12" fill="#4f46e5" text-anchor="middle">Admin</text>
+  <line x1="800" y1="340" x2="800" y2="400" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="820" y="370" font-family="Arial" font-size="14" fill="#111827">Today, 10:23 AM</text>
+  <line x1="920" y1="340" x2="920" y2="400" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="940" y="360" width="65" height="24" rx="12" fill="#dcfce7"/>
+  <text x="972" y="377" font-family="Arial" font-size="12" fill="#16a34a" text-anchor="middle">Active</text>
+  <line x1="1020" y1="340" x2="1020" y2="400" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="1030" y="360" width="36" height="24" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="1048" y="377" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle">Edit</text>
+  <rect x="1076" y="360" width="50" height="24" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="1101" y="377" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle">Roles</text>
+  <rect x="1136" y="360" width="36" height="24" rx="4" fill="#fef2f2" stroke="#fee2e2" stroke-width="1"/>
+  <text x="1154" y="377" font-family="Arial" font-size="12" fill="#dc2626" text-anchor="middle">Del</text>
+  
+  <line x1="292" y1="400" x2="1180" y2="400" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <rect x="292" y="400" width="888" height="60" fill="#ffffff"/>
+  <rect x="292" y="400" width="30" height="60" fill="#ffffff"/>
+  <rect x="302" y="420" width="20" height="20" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="322" y1="400" x2="322" y2="460" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="342" cy="430" r="20" fill="#c7d2fe"/>
+  <text x="342" y="435" font-family="Arial" font-size="12" font-weight="bold" fill="#3730a3" text-anchor="middle">MR</text>
+  <text x="372" y="430" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Maria Rodriguez</text>
+  <line x1="480" y1="400" x2="480" y2="460" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="500" y="430" font-family="Arial" font-size="14" fill="#111827">maria.r@acme.com</text>
+  <line x1="700" y1="400" x2="700" y2="460" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="720" y="420" width="65" height="24" rx="12" fill="#fef3c7"/>
+  <text x="752" y="437" font-family="Arial" font-size="12" fill="#d97706" text-anchor="middle">Editor</text>
+  <line x1="800" y1="400" x2="800" y2="460" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="820" y="430" font-family="Arial" font-size="14" fill="#111827">Yesterday, 15:47</text>
+  <line x1="920" y1="400" x2="920" y2="460" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="940" y="420" width="65" height="24" rx="12" fill="#dcfce7"/>
+  <text x="972" y="437" font-family="Arial" font-size="12" fill="#16a34a" text-anchor="middle">Active</text>
+  <line x1="1020" y1="400" x2="1020" y2="460" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="1030" y="420" width="36" height="24" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="1048" y="437" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle">Edit</text>
+  <rect x="1076" y="420" width="50" height="24" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="1101" y="437" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle">Roles</text>
+  <rect x="1136" y="420" width="36" height="24" rx="4" fill="#fef2f2" stroke="#fee2e2" stroke-width="1"/>
+  <text x="1154" y="437" font-family="Arial" font-size="12" fill="#dc2626" text-anchor="middle">Del</text>
+  
+  <line x1="292" y1="460" x2="1180" y2="460" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <rect x="292" y="460" width="888" height="60" fill="#ffffff"/>
+  <rect x="292" y="460" width="30" height="60" fill="#ffffff"/>
+  <rect x="302" y="480" width="20" height="20" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="322" y1="460" x2="322" y2="520" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="342" cy="490" r="20" fill="#fecaca"/>
+  <text x="342" y="495" font-family="Arial" font-size="12" font-weight="bold" fill="#991b1b" text-anchor="middle">AC</text>
+  <text x="372" y="490" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Alex Chen</text>
+  <line x1="480" y1="460" x2="480" y2="520" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="500" y="490" font-family="Arial" font-size="14" fill="#111827">alex.chen@acme.com</text>
+  <line x1="700" y1="460" x2="700" y2="520" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="720" y="480" width="65" height="24" rx="12" fill="#e0f2fe"/>
+  <text x="752" y="497" font-family="Arial" font-size="12" fill="#0369a1" text-anchor="middle">Viewer</text>
+  <line x1="800" y1="460" x2="800" y2="520" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="820" y="490" font-family="Arial" font-size="14" fill="#111827">Sep 12, 2023</text>
+  <line x1="920" y1="460" x2="920" y2="520" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="940" y="480" width="65" height="24" rx="12" fill="#fee2e2"/>
+  <text x="972" y="497" font-family="Arial" font-size="12" fill="#b91c1c" text-anchor="middle">Inactive</text>
+  <line x1="1020" y1="460" x2="1020" y2="520" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="1030" y="480" width="36" height="24" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="1048" y="497" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle">Edit</text>
+  <rect x="1076" y="480" width="50" height="24" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="1101" y="497" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle">Roles</text>
+  <rect x="1136" y="480" width="36" height="24" rx="4" fill="#fef2f2" stroke="#fee2e2" stroke-width="1"/>
+  <text x="1154" y="497" font-family="Arial" font-size="12" fill="#dc2626" text-anchor="middle">Del</text>
+  
+  <line x1="292" y1="520" x2="1180" y2="520" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <rect x="292" y="520" width="888" height="60" fill="#ffffff"/>
+  <rect x="292" y="520" width="30" height="60" fill="#ffffff"/>
+  <rect x="302" y="540" width="20" height="20" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="322" y1="520" x2="322" y2="580" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="342" cy="550" r="20" fill="#d1fae5"/>
+  <text x="342" y="555" font-family="Arial" font-size="12" font-weight="bold" fill="#065f46" text-anchor="middle">SD</text>
+  <text x="372" y="550" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Sarah Davis</text>
+  <line x1="480" y1="520" x2="480" y2="580" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="500" y="550" font-family="Arial" font-size="14" fill="#111827">sarah.davis@acme.com</text>
+  <line x1="700" y1="520" x2="700" y2="580" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="720" y="540" width="70" height="24" rx="12" fill="#fef3c7"/>
+  <text x="755" y="557" font-family="Arial" font-size="12" fill="#d97706" text-anchor="middle">Editor</text>
+  <line x1="800" y1="520" x2="800" y2="580" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="820" y="550" font-family="Arial" font-size="14" fill="#111827">Sep 10, 2023</text>
+  <line x1="920" y1="520" x2="920" y2="580" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="940" y="540" width="65" height="24" rx="12" fill="#dcfce7"/>
+  <text x="972" y="557" font-family="Arial" font-size="12" fill="#16a34a" text-anchor="middle">Active</text>
+  <line x1="1020" y1="520" x2="1020" y2="580" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="1030" y="540" width="36" height="24" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="1048" y="557" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle">Edit</text>
+  <rect x="1076" y="540" width="50" height="24" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="1101" y="557" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle">Roles</text>
+  <rect x="1136" y="540" width="36" height="24" rx="4" fill="#fef2f2" stroke="#fee2e2" stroke-width="1"/>
+  <text x="1154" y="557" font-family="Arial" font-size="12" fill="#dc2626" text-anchor="middle">Del</text>
+  
+  <line x1="292" y1="580" x2="1180" y2="580" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <rect x="292" y="580" width="888" height="60" fill="#ffffff"/>
+  <rect x="292" y="580" width="30" height="60" fill="#ffffff"/>
+  <rect x="302" y="600" width="20" height="20" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="322" y1="580" x2="322" y2="640" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="342" cy="610" r="20" fill="#f3e8ff"/>
+  <text x="342" y="615" font-family="Arial" font-size="12" font-weight="bold" fill="#6b21a8" text-anchor="middle">MP</text>
+  <text x="372" y="610" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Michael Patel</text>
+  <line x1="480" y1="580" x2="480" y2="640" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="500" y="610" font-family="Arial" font-size="14" fill="#111827">m.patel@acme.com</text>
+  <line x1="700" y1="580" x2="700" y2="640" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="720" y="600" width="65" height="24" rx="12" fill="#e0f2fe"/>
+  <text x="752" y="617" font-family="Arial" font-size="12" fill="#0369a1" text-anchor="middle">Viewer</text>
+  <line x1="800" y1="580" x2="800" y2="640" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="820" y="610" font-family="Arial" font-size="14" fill="#111827">Sep 8, 2023</text>
+  <line x1="920" y1="580" x2="920" y2="640" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="940" y="600" width="65" height="24" rx="12" fill="#dcfce7"/>
+  <text x="972" y="617" font-family="Arial" font-size="12" fill="#16a34a" text-anchor="middle">Active</text>
+  <line x1="1020" y1="580" x2="1020" y2="640" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="1030" y="600" width="36" height="24" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="1048" y="617" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle">Edit</text>
+  <rect x="1076" y="600" width="50" height="24" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="1101" y="617" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle">Roles</text>
+  <rect x="1136" y="600" width="36" height="24" rx="4" fill="#fef2f2" stroke="#fee2e2" stroke-width="1"/>
+  <text x="1154" y="617" font-family="Arial" font-size="12" fill="#dc2626" text-anchor="middle">Del</text>
+  
+  <!-- Pagination -->
+  <rect x="292" y="650" width="888" height="40" fill="#ffffff"/>
+  <text x="292" y="675" font-family="Arial" font-size="14" fill="#6b7280">Showing 1-5 of 42 users</text>
+  
+  <rect x="960" y="650" width="220" height="40" fill="#ffffff"/>
+  <rect x="960" y="655" width="40" height="30" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="980" y="675" font-family="Arial" font-size="14" fill="#9ca3af" text-anchor="middle">←</text>
+  <rect x="1010" y="655" width="40" height="30" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="1030" y="675" font-family="Arial" font-size="14" fill="#111827" text-anchor="middle">1</text>
+  <rect x="1060" y="655" width="40" height="30" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="1080" y="675" font-family="Arial" font-size="14" fill="#2563eb" text-anchor="middle">2</text>
+  <rect x="1110" y="655" width="40" height="30" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="1130" y="675" font-family="Arial" font-size="14" fill="#111827" text-anchor="middle">3</text>
+  <rect x="1160" y="655" width="40" height="30" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="1180" y="675" font-family="Arial" font-size="14" fill="#9ca3af" text-anchor="middle">→</text>
+  

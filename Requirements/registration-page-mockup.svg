@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f3f4f6"/>
+  
+  <!-- Registration Container -->
+  <rect x="400" y="50" width="400" height="700" rx="12" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Logo Area -->
+  <rect x="500" y="80" width="200" height="60" fill="#ffffff"/>
+  <text x="510" y="120" font-family="Arial" font-size="32" font-weight="bold" fill="#2563eb">Airiam RAG</text>
+  
+  <!-- Registration Form -->
+  <text x="500" y="170" font-family="Arial" font-size="24" font-weight="bold" fill="#111827">Create your account</text>
+  <text x="500" y="200" font-family="Arial" font-size="14" fill="#6b7280">Sign up to get started with Airiam</text>
+  
+  <!-- Full Name Input -->
+  <text x="500" y="240" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Full Name</text>
+  <rect x="500" y="250" width="300" height="44" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="516" y="278" font-family="Arial" font-size="14" fill="#111827">John Smith</text>
+  
+  <!-- Email Input -->
+  <text x="500" y="320" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Email address</text>
+  <rect x="500" y="330" width="300" height="44" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="516" y="358" font-family="Arial" font-size="14" fill="#111827">john.smith@example.com</text>
+  
+  <!-- Password Input -->
+  <text x="500" y="400" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Password</text>
+  <rect x="500" y="410" width="300" height="44" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="516" y="438" font-family="Arial" font-size="14" fill="#111827">••••••••••••</text>
+  <text x="500" y="462" font-family="Arial" font-size="12" fill="#6b7280">Password must be at least 8 characters</text>
+  
+  <!-- Confirm Password Input -->
+  <text x="500" y="490" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Confirm Password</text>
+  <rect x="500" y="500" width="300" height="44" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="516" y="528" font-family="Arial" font-size="14" fill="#111827">••••••••••••</text>
+  
+  <!-- Terms Checkbox -->
+  <rect x="500" y="560" width="20" height="20" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="530" y="574" font-family="Arial" font-size="14" fill="#374151">I agree to the</text>
+  <text x="630" y="574" font-family="Arial" font-size="14" fill="#2563eb">Terms of Service</text>
+  <text x="755" y="574" font-family="Arial" font-size="14" fill="#374151">and</text>
+  <text x="530" y="594" font-family="Arial" font-size="14" fill="#2563eb">Privacy Policy</text>
+  
+  <!-- Register Button -->
+  <rect x="500" y="620" width="300" height="44" rx="6" fill="#2563eb"/>
+  <text x="650" y="648" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Create Account</text>
+  
+  <!-- Sign In Link -->
+  <text x="570" y="690" font-family="Arial" font-size="14" fill="#6b7280">Already have an account?</text>
+  <text x="735" y="690" font-family="Arial" font-size="14" fill="#2563eb">Sign in</text>
+</svg>

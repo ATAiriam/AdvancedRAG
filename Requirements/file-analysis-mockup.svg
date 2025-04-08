@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f3f4f6"/>
+  
+  <!-- Sidebar Background -->
+  <rect x="0" y="0" width="240" height="800" fill="#1e293b"/>
+  
+  <!-- Header Bar -->
+  <rect x="240" y="0" width="960" height="64" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Company name area -->
+  <rect x="256" y="16" width="300" height="32" rx="4" fill="#ffffff"/>
+  <text x="260" y="37" font-family="Arial" font-size="16" font-weight="bold" fill="#111827">Acme Corporation</text>
+  
+  <!-- User menu area -->
+  <circle cx="1130" cy="32" r="20" fill="#3b82f6"/>
+  <text x="1130" y="37" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">AC</text>
+  
+  <!-- Dark/Light toggle -->
+  <circle cx="1070" cy="32" r="16" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+  <path d="M1070 24 L1070 40 M1062 32 L1078 32" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Sidebar Logo -->
+  <rect x="32" y="24" width="176" height="32" rx="4" fill="#1e293b"/>
+  <text x="32" y="46" font-family="Arial" font-size="20" font-weight="bold" fill="#ffffff">Airiam RAG</text>
+  
+  <!-- Sidebar Navigation -->
+  <rect x="16" y="100" width="208" height="40" rx="4" fill="#1e293b"/>
+  <text x="56" y="125" font-family="Arial" font-size="14" fill="#94a3b8">Dashboard</text>
+  <rect x="24" y="110" width="20" height="20" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  
+  <rect x="16" y="150" width="208" height="40" rx="4" fill="#1e293b"/>
+  <text x="56" y="175" font-family="Arial" font-size="14" fill="#94a3b8">Chat</text>
+  <rect x="24" y="160" width="20" height="20" rx="10" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  
+  <rect x="16" y="200" width="208" height="40" rx="4" fill="#2563eb"/>
+  <text x="56" y="225" font-family="Arial" font-size="14" fill="#ffffff">File Analysis</text>
+  <rect x="24" y="210" width="20" height="20" fill="none" stroke="#ffffff" stroke-width="2"/>
+  
+  <rect x="16" y="250" width="208" height="40" rx="4" fill="#1e293b"/>
+  <text x="56" y="275" font-family="Arial" font-size="14" fill="#94a3b8">Analytics</text>
+  <path d="M24 220 L44 230 L34 250" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- Footer profile in Sidebar -->
+  <rect x="16" y="720" width="208" height="64" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+  <circle cx="40" cy="752" r="20" fill="#3b82f6"/>
+  <text x="40" y="757" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">AC</text>
+  <text x="70" y="747" font-family="Arial" font-size="14" fill="#ffffff">Admin User</text>
+  <text x="70" y="767" font-family="Arial" font-size="12" fill="#94a3b8">View profile</text>
+  
+  <!-- Main Content Area - File Analysis -->
+  <rect x="256" y="80" width="928" height="704" rx="0" fill="#f3f4f6"/>
+  
+  <!-- Page Header -->
+  <text x="272" y="120" font-family="Arial" font-size="24" font-weight="bold" fill="#111827">File Analysis</text>
+  <text x="272" y="150" font-family="Arial" font-size="14" fill="#6b7280">Upload, analyze, and extract insights from your documents</text>
+  
+  <!-- File Upload Section -->
+  <rect x="272" y="180" width="280" height="300" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="296" y="210" font-family="Arial" font-size="16" font-weight="bold" fill="#111827">Upload File</text>
+  
+  <!-- File Upload Drag Area -->
+  <rect x="292" y="230" width="240" height="160" rx="4" fill="#f8fafc" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4"/>
+  <text x="412" y="295" font-family="Arial" font-size="14" fill="#6b7280" text-anchor="middle">Drag files here or</text>
+  <rect x="352" y="315" width="120" height="36" rx="6" fill="#dbeafe"/>
+  <text x="412" y="338" font-family="Arial" font-size="14" fill="#2563eb" text-anchor="middle">Browse Files</text>
+  
+  <!-- File Upload Options -->
+  <text x="296" y="420" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Options</text>
+  <rect x="296" y="435" width="20" height="20" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="326" y="450" font-family="Arial" font-size="14" fill="#111827">Store full content in vector DB</text>
+  
+  <rect x="296" y="470" width="240" height="36" rx="6" fill="#2563eb"/>
+  <text x="416" y="493" font-family="Arial" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Upload & Analyze</text>
+  
+  <!-- Cloud Storage Section -->
+  <rect x="568" y="180" width="280" height="300" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="592" y="210" font-family="Arial" font-size="16" font-weight="bold" fill="#111827">Cloud Storage</text>
+  
+  <!-- Cloud Storage Provider Selection -->
+  <text x="592" y="240" font-family="Arial" font-size="14" fill="#6b7280">Storage Provider</text>
+  <rect x="592" y="255" width="240" height="40" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="612" y="280" font-family="Arial" font-size="14" fill="#111827">Google Drive</text>
+  <path d="M812 275 L822 280 L812 285" fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Cloud Storage Auth Fields -->
+  <text x="592" y="320" font-family="Arial" font-size="14" fill="#6b7280">Client ID</text>
+  <rect x="592" y="335" width="240" height="40" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="612" y="360" font-family="Arial" font-size="14" fill="#9ca3af">Enter your client ID</text>
+  
+  <text x="592" y="395" font-family="Arial" font-size="14" fill="#6b7280">Client Secret</text>
+  <rect x="592" y="410" width="240" height="40" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="612" y="435" font-family="Arial" font-size="14" fill="#9ca3af">••••••••••••••••</text>
+  
+  <rect x="592" y="470" width="240" height="36" rx="6" fill="#2563eb"/>
+  <text x="712" y="493" font-family="Arial" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Connect</text>
+  
+  <!-- File List Section -->
+  <rect x="864" y="180" width="320" height="300" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="888" y="210" font-family="Arial" font-size="16" font-weight="bold" fill="#111827">Recent Files</text>
+  
+  <!-- File List Items -->
+  <rect x="888" y="230" width="280" height="60" rx="6" fill="#f8fafc"/>
+  <text x="938" y="255" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Financial Report Q3.pdf</text>
+  <text x="938" y="275" font-family="Arial" font-size="12" fill="#6b7280">2.4 MB • 2 hours ago</text>
+  <rect x="898" y="245" width="30" height="30" rx="4" fill="#dbeafe"/>
+  <text x="913" y="265" font-family="Arial" font-size="14" fill="#2563eb" text-anchor="middle">📄</text>
+  <rect x="1128" y="250" width="20" height="20" rx="10" fill="#dcfce7"/>
+  <text x="1138" y="263" font-family="Arial" font-size="10" fill="#16a34a" text-anchor="middle">✓</text>
+  
+  <rect x="888" y="300" width="280" height="60" rx="6" fill="#f8fafc"/>
+  <text x="938" y="325" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Product Roadmap 2023.docx</text>
+  <text x="938" y="345" font-family="Arial" font-size="12" fill="#6b7280">1.8 MB • Yesterday</text>
+  <rect x="898" y="315" width="30" height="30" rx="4" fill="#dbeafe"/>
+  <text x="913" y="335" font-family="Arial" font-size="14" fill="#2563eb" text-anchor="middle">📄</text>
+  <rect x="1128" y="320" width="20" height="20" rx="10" fill="#dcfce7"/>
+  <text x="1138" y="333" font-family="Arial" font-size="10" fill="#16a34a" text-anchor="middle">✓</text>
+  
+  <rect x="888" y="370" width="280" height="60" rx="6" fill="#0f172a"/>
+  <text x="938" y="395" font-family="Arial" font-size="14" font-weight="bold" fill="#f8fafc">Legal Guidelines 2023.pdf</text>
+  <text x="938" y="415" font-family="Arial" font-size="12" fill="#94a3b8">3.2 MB • Sep 14</text>
+  <rect x="898" y="385" width="30" height="30" rx="4" fill="#1e40af"/>
+  <text x="913" y="405" font-family="Arial" font-size="14" fill="#bfdbfe" text-anchor="middle">📄</text>
+  <rect x="1128" y="390" width="20" height="20" rx="10" fill="#374151"/>
+  <text x="1138" y="403" font-family="Arial" font-size="10" fill="#9ca3af" text-anchor="middle">✓</text>
+  
+  <!-- Analysis Results Section -->
+  <rect x="272" y="500" width="912" height="280" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="296" y="530" font-family="Arial" font-size="16" font-weight="bold" fill="#111827">Analysis Results for Legal Guidelines 2023.pdf</text>
+  <text x="296" y="550" font-family="Arial" font-size="14" fill="#6b7280">Here's what we found in your document.</text>
+  
+  <!-- Summary Section -->
+  <text x="296" y="580" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Summary</text>
+  <rect x="296" y="590" width="872" height="60" rx="4" fill="#f8fafc"/>
+  <text x="316" y="610" width="872" font-family="Arial" font-size="13" fill="#334155">This document outlines the updated legal compliance guidelines for 2023, including new regulations for data privacy (GDPR, CCPA), reporting requirements, and intellectual property protections. Key changes focus on international operations and third-party vendor management.</text>
+  <text x="316" y="630" width="872" font-family="Arial" font-size="13" fill="#334155">The document contains 45 pages covering 12 main sections, with specific action items highlighted for implementation by Q4 2023.</text>
+  
+  <!-- Key Points Section -->
+  <text x="296" y="670" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Key Points</text>
+  <circle cx="306" cy="690" r="3" fill="#4b5563"/>
+  <text x="316" y="695" font-family="Arial" font-size="13" fill="#334155">New data breach notification requirements (24-hour mandatory reporting)</text>
+  
+  <circle cx="306" cy="710" r="3" fill="#4b5563"/>
+  <text x="316" y="715" font-family="Arial" font-size="13" fill="#334155">Updated vendor assessment criteria for third-party risk management</text>
+  
+  <circle cx="306" cy="730" r="3" fill="#4b5563"/>
+  <text x="316" y="735" font-family="Arial" font-size="13" fill="#334155">Expanded international compliance section covering 15 new jurisdictions</text>
+  
+  <circle cx="306" cy="750" r="3" fill="#4b5563"/>
+  <text x="316" y="755" font-family="Arial" font-size="13" fill="#334155">Modified intellectual property protection clauses for remote work scenarios</text>
+  
+  <!-- Topics Section -->
+  <text x="650" y="670" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Main Topics</text>
+  <rect x="650" y="685" width="90" height="28" rx="14" fill="#dbeafe"/>
+  <text x="695" y="703" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">Legal</text>
+  
+  <rect x="750" y="685" width="110" height="28" rx="14" fill="#dbeafe"/>
+  <text x="805" y="703" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">Compliance</text>
+  
+  <rect x="870" y="685" width="100" height="28" rx="14" fill="#dbeafe"/>
+  <text x="920" y="703" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">Data Privacy</text>
+  
+  <rect x="980" y="685" width="70" height="28" rx="14" fill="#dbeafe"/>
+  <text x="1015" y="703" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">GDPR</text>
+  
+  <rect x="650" y="715" width="80" height="28" rx="14" fill="#dbeafe"/>
+  <text x="690" y="733" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">CCPA</text>
+  
+  <rect x="740" y="715" width="100" height="28" rx="14" fill="#dbeafe"/>
+  <text x="790" y="733" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">Regulation</text>
+  
+  <rect x="850" y="715" width="130" height="28" rx="14" fill="#dbeafe"/>
+  <text x="915" y="733" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">Risk Management</text>
+</svg>
