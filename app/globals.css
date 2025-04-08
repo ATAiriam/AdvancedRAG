@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary color - Blue */
+  --color-primary-hue: 221;
+  --color-primary-saturation: 83%;
+  
+  --color-primary-50: hsl(var(--color-primary-hue), var(--color-primary-saturation), 97%);
+  --color-primary-100: hsl(var(--color-primary-hue), var(--color-primary-saturation), 94%);
+  --color-primary-200: hsl(var(--color-primary-hue), var(--color-primary-saturation), 88%);
+  --color-primary-300: hsl(var(--color-primary-hue), var(--color-primary-saturation), 75%);
+  --color-primary-400: hsl(var(--color-primary-hue), var(--color-primary-saturation), 60%);
+  --color-primary-500: hsl(var(--color-primary-hue), var(--color-primary-saturation), 50%);
+  --color-primary-600: hsl(var(--color-primary-hue), var(--color-primary-saturation), 40%);
+  --color-primary-700: hsl(var(--color-primary-hue), var(--color-primary-saturation), 30%);
+  --color-primary-800: hsl(var(--color-primary-hue), var(--color-primary-saturation), 20%);
+  --color-primary-900: hsl(var(--color-primary-hue), var(--color-primary-saturation), 15%);
+  --color-primary-950: hsl(var(--color-primary-hue), var(--color-primary-saturation), 10%);
+  
+  /* Secondary color - Slate */
+  --color-secondary-hue: 215;
+  --color-secondary-saturation: 16%;
+  
+  --color-secondary-50: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), 97%);
+  --color-secondary-100: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), 94%);
+  --color-secondary-200: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), 88%);
+  --color-secondary-300: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), 75%);
+  --color-secondary-400: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), 60%);
+  --color-secondary-500: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), 50%);
+  --color-secondary-600: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), 40%);
+  --color-secondary-700: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), 30%);
+  --color-secondary-800: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), 20%);
+  --color-secondary-900: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), 15%);
+  --color-secondary-950: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), 10%);
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Mobile optimizations */
+@layer utilities {
+  .touch-callout-none {
+    -webkit-touch-callout: none;
+  }
+  
+  .tap-highlight-transparent {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Mobile touch target sizes */
+  .touch-target-min {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Improved scrolling on iOS */
+  .scroll-momentum {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Mobile bottom padding for page content to account for bottom nav */
+@media (max-width: 768px) {
+  .pb-safe {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 4rem);
+  }
+}
+
+/* Animation delay utility classes */
+.animation-delay-100 {
+  animation-delay: 100ms;
+}
+
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+
+.animation-delay-400 {
+  animation-delay: 400ms;
+}
+
+.animation-delay-500 {
+  animation-delay: 500ms;
+}
+
+/* Skeleton animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Optimize font rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Better dark mode transitions */
+html.dark {
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light) {
+    color-scheme: dark;
+  }
+}
+
+/* Disable long-press context menu on mobile */
+@media (max-width: 768px) {
+  img, a {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
+
+/* Disable form autofill background colors */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.dark input:-webkit-autofill,
+.dark input:-webkit-autofill:hover,
+.dark input:-webkit-autofill:focus,
+.dark input:-webkit-autofill:active {
+  -webkit-text-fill-color: #fff;
+}
